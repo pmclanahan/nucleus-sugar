@@ -1,146 +1,103 @@
-# Adding peep so we can track it on requires.io. For packages
-# installation we use peep.py shipped in ./bin
-# sha256: KoBM4H9Zz1WtVFuy4WMSwRNkuU0_k4bW4SFFsuOOXBw
-peep==2.4.1
-
-# sha256: c1CauJkYk_5byimUihn9wtv5xN1KDpiqnFgDvveKsiY
-# sha256: zpqSSG7aW_PZ5Ah_gCSSsVtxsGuJTWgM-Wb1wnlD5TI
-# sha256: m7S7kSEJqteivOjiKGp9mgnrzKrv5Br4VYZrZgcVkGA
-peepin==0.11
-
-# sha256: EAFkVWiXwSGfM3BuY6ZWuISNM9CbAWHi3u_MUJeM9i0
-# sha256: IDkUT86PG2A9A_paVkNXjfGtAHxO1BphfwKjlD9wWaE
-Django==1.7.11
-
-# sha256: 8uJz7TSsu1YJYtXPEpF5NtjfAil98JvTCJuFRtRYQTg
-# sha256: ygF2j97N4TQwHzFwdDIm9g7f9cOTXxJDc3jr2RFQY1M
-dj-database-url==0.3.0
-
-# sha256: as-au751fvddwuzZ2RunSVR5Qauv--af8ghqnjfUkEw
-psycopg2==2.6.1
-
-# sha256: mYNMn_fOXFsvShi8CIB1PlTqOqq8PPsWlhqS1QRmZd8
-python-decouple==3.0
-
-# sha256: LiSsXQBNtXFJdqBKwOgMbfbkfpjDVMssDYL4h51Pj9s
-Jinja2==2.7.3
-
-# sha256: pOwa_1m5WhS0XrLiN2GgF56YMZ2lp-t2tW6ozce4ccM
-MarkupSafe==0.23
-
-# sha256: pRec3pItK04EXuWxHocyPud9NjrkApT8glLyXWoOrwY
-# sha256: i8g1CCiCrZoBLNeQxGABHk2WvzUS2YoE09q75FOToIk
-gunicorn==19.3.0
-
-# sha256: HCXe64vZm2Kwo-ODYV_ohOwRTOTDu-udw53RQU7cKU0
-# sha256: fQHFIMGnwEIEv1KHtts8Zz47l6s6jlzBovzFnYahRAw
-whitenoise==2.0.4
-
-# sha256: 0yV2uq13_dnmhZvpfCtqPBem9IQ2Q4nbcx8Gl7ehlmE
-django-csp==2.0.3
-
-# sha256: Or5qbT_C-75MYBRCEfRdou2-MYKm9lEa9ru6BZix-ZI
-# sha256: k575weEiTZgEBWial__PeCjFbRUXsx1zRkNWwfK3dp4
-# sha256: 6tSu-nAHJJ4F5RsBCVcZ1ajdlXYAifVzCqxWmLGTKRg
-# sha256: PMoN8IvQ7ZhDI5BJTOPe0AP15mGqRgvnpzS__jWYNgU
-# sha256: Pt5HDT0XujwHY436DRBFK8G25a0yYSemW6d-aq6xG-w
-# sha256: aMR5ZPcYbuwwaxNilidyK5B5zURH7Z5eyuzU6shMpzQ
-# sha256: 3V05kZUKrkCmyB3hV4lC5z1imAjO_FHRLNFXmA5s_Bg
-# sha256: p3xSBiwH63x7MFRdvHPjKZW34Rfup1Axe1y1x6RhjxQ
-# sha256: ga-a7EvJYKmgEnxIjxh3La5GNGiSM_BvZUQ-exHr61E
-# sha256: 4Hmx2txcBiRswbtv4bI6ULHRFz8u3VEE79QLtzoo9AY
-# sha256: -9JnRncsJMuTyLl8va1cueRshrvbG52KdD7gDi-x_F0
-# sha256: mSZu8wo35Dky3uwrfKc-g8jbw7n_cD7HPsprHa5r7-o
-# sha256: i2zhyZOQl4O8luC0806iI7_3pN8skL25xODxrJKGieM
-pytz==2015.7
-
-# sha256: tYAUqlZA40Vup9vzPxUaHEud9HKJdocwwKAwYaRxOGU
-newrelic==2.56.0.42
-
-# sha256: sVjy_R5it9Jdvj4JGfyXeYcZ9ypgcr2y-bDh0C_CsD8
-# sha256: ghbIxu4JKuk9UfibyRBFZIyIzZvnfWDPR998om7k-Iw
-flake8==2.5.0
-
-# sha256: SqEp342QB7GSv4IBP0FVM5lGUtfKqTDQAmh-tCpsKkE
-# sha256: uLfjVjC1U54moZffxgBb6eHpoTVJazd3I6jrwBuby_8
-pep8==1.6.2
-
-# sha256: Bx0SHp57MwWKobpd57zpuXv6MUnP4ay7ZYfCH8HI7aE
-# sha256: 854zpMA77q2HdPAFvT7PDD8vJk-gIB3pZfzgr_HTQmM
-pyflakes==1.0.0
-
-# sha256: vWwID7NyrrywzhnjXdrHRPKr9ae--iB9stEJfUjv5jo
-# sha256: X36m-zqpr-FG0H_W1c7feIdH2LDCnkRzJFPCstsePRY
-mccabe==0.3.1
-
-# sha256: lUHOZ55R670NvTImy0NMw6yTIbUvA7ra0pdfYNbJ8Lo
-# sha256: VsBHyYmu7GaF7iqLJcB-zcoEKiN0nm6iPPsZSEThV7w
-# sha256: L9J2xAf7Cynl1IhKcCmiwn_vCgb9ejSSTM5pt8xD9No
-# sha256: WnlMdzRJTPhTamfVCc8UQ_TlSIg3onwsWzSNhAWRR8E
-ipython==4.0.0
-
-# sha256: F2PRVkET9euJ33eHmo0yEyc8TX_5Pcs3owcM3ww0_Xw
-ipdb==0.8.1
-
-# sha256: Ld8Y2jsGIfpD_uS3KQ2grnibRvuJkniorMzaGVxJeac
-# sha256: Gm5RMMK0LS3jAWk8KZ94zEvTUB54thDAjkXvxw4rURQ
-Sphinx==1.3.1
-
-# sha256: PDjQN3E714BDSG7qW_dx1x7Wl-wlwJ4W9J5EiH9_4YQ
-# sha256: RsLKi0grA5i5Yhu1qOx8nFxyJpJuU2PhjXRPXw05148
-# sha256: JzhG-KrKwyv5VCNlpZO0lbaNgDXC44LJzO3Kw4fJoKE
-sphinx_rtd_theme==0.1.9
-
-# sha256: Egr4uJMGHscr5KqRuTRV5tDUqAF1wHpTgZkQxNiXSDA
-# sha256: CMxlW-wlusPmYKstHFFHHUUy7zk_xA-vvSUBQCY1Frs
-sphinx-autobuild==0.5.2
-
-# sha256: 3OvUkoESYxYm9MTQ31l4fHSEBOZt2pUhEAMOqIPTuM0
-# sha256: x9txeBCraWX2bIzwOYqYydjfmC2jm0zX8WKRHriVlvo
-docutils==0.12
-
-# sha256: CjoiZeHvsN76ci0fQpcw3J35da3DxgrH0rQyvfA8BB0
-# sha256: Xe0vqQlP19_rPakmNkCf1wKg0H1gYoNQTX7gRAHO5cs
-# sha256: cyCRkITm2sj0VAY4pGRHo71zD8oXKvwX0sA-7SLPT1E
-Pygments==2.0.2
-
-# sha256: b0wujFraFwOf8cHji8Ub6pMXrzZ24oRmFIyN9fx48TI
-django-jinja==1.4.1
-
-# sha256: RORjnsBXprap3duGnU46SBj8knjsSQzOOa7whEBZKpM
-django-session-csrf==0.5
-# sha256: WcEq1Nrmy3pU3qxiagkH2LDRm1dX3B0VsGN0aVExUos
-# sha256: FBllrkO742oGgqTRUn7YK8XUwgMRP5EXElel2XZO3YI
-django-extensions==1.5.9
-# sha256: fRdUe2UhbMXG-8BK7lUIjM1ZF8B3UwTZb3AXwmx4nNc
-# sha256: AMxHk1r7vYMmD90oOwqnkOZY0qcZIgSfbkZ9yooSRTc
-django-filter==0.11.0
-# sha256: 5Dbu56ryojDKMxUDTdOeig_CcDZwisqj3XBiXsYqlM4
-# sha256: FvvUlg_lm8jN0CnzHdKezuQPIewnzNamQtdKMtXVfVw
-markdown==2.6.4
-# sha256: xhLLJ-qGcXbEJKQwWeHgWPF8Pu0rY1wIhBPlUhE9_Eg
-# sha256: 0bQJgvZSh-qLJ4YlsOMq7fvu7oNMDNZOCfDw2LYnNUE
-django-browserid==1.0.1
-
-# rna: master
-# sha256: 0_-KME8AZR9yvlb_qpOkB0OSXJTbzl9ZnZHJJZ6Gg28
-https://github.com/mozilla/rna/archive/113593bff34d23f84c9bf0de648817c3f3502750.tar.gz#egg=rna==1.1
-
-# pagedown: master
-# match commit from git submodule in playdoh-nucleus
-# sha256: Pnv69UpWCImDgQTBANizeTAwYkPYkTlCxGdc_MVLzMc
-https://github.com/timmyomahony/django-pagedown/archive/78556863faa5654f749c5562b390317c6cad10b3.tar.gz#egg=pagedown==0.1
-
-# django-rest-framework: 2.3.8
-# match commit from git submodule in playdoh-nucleus
-# sha256: VwvpzZagTL5KMCdW_XTvTtrc48NNMXOBHE1jnBDB2mA
-https://github.com/tomchristie/django-rest-framework/archive/d9a8bc08929de0163b8fbb87dc9a3af685330eaf.tar.gz#egg=django_rest_framework==2.3.8
-
-# sha256: 2tzdwK77-Z7qIU4PEjK5Ty-pvZj6g1NxHayxEr_Luyo
-# sha256: n_fGzEQ_jFGZSzSmZ7vPRa_W2UW-dHe1LpdRb9F8U6w
-# sha256: 8b_--cvIJij259e0DX4lWu-qGttqGx0mxpqLeeYgipg
-nose==1.3.7
-
-# sha256: P1c6GL6U3ohtEZHyfBaEJ-9pPo3Pzs-VsXBXey62nLs
-# sha256: HiR9vsxs4FcpnrfuAZrWgxS7kxUugdmmEQ019NXsoPY
-mock==1.3.0
+Django==1.7.11 \
+    --hash=sha256:100164556897c1219f33706e63a656b8848d33d09b0161e2deefcc50978cf62d \
+    --hash=sha256:2039144fce8f1b603d03fa5a5643578df1ad007c4ed41a617f02a3943f7059a1
+dj-database-url==0.3.0 \
+    --hash=sha256:f2e273ed34acbb560962d5cf12917936d8df02297df09bd3089b8546d4584138 \
+    --hash=sha256:ca01768fdecde134301f3170743226f60edff5c3935f12437378ebd911506353
+psycopg2==2.6.1 \
+    --hash=sha256:6acf9abbbe757ef75dc2ecd9d91ba749547941abaffbe69ff2086a9e37d4904c
+python-decouple==3.0 \
+    --hash=sha256:99834c9ff7ce5c5b2f4a18bc0880753e54ea3aaabc3cfb16961a92d5046665df
+Jinja2==2.7.3 \
+    --hash=sha256:2e24ac5d004db5714976a04ac0e80c6df6e47e98c354cb2c0d82f8879d4f8fdb
+MarkupSafe==0.23 \
+    --hash=sha256:a4ec1aff59b95a14b45eb2e23761a0179e98319da5a7eb76b56ea8cdc7b871c3
+gunicorn==19.3.0 \
+    --hash=sha256:a5179cde922d2b4e045ee5b11e87323ee77d363ae40294fc8252f25d6a0eaf06 \
+    --hash=sha256:8bc835082882ad9a012cd790c460011e4d96bf3512d98a04d3dabbe45393a089
+whitenoise==2.0.4 \
+    --hash=sha256:1c25deeb8bd99b62b0a3e383615fe884ec114ce4c3bbeb9dc39dd1414edc294d \
+    --hash=sha256:7d01c520c1a7c04204bf5287b6db3c673e3b97ab3a8e5cc1a2fcc59d86a1440c
+django-csp==2.0.3 \
+    --hash=sha256:d32576baad77fdd9e6859be97c2b6a3c17a6f484364389db731f0697b7a19661
+pytz==2015.7 \
+    --hash=sha256:3abe6a6d3fc2fbbe4c60144211f45da2edbe3182a6f6511af6bbba0598b1f992 \
+    --hash=sha256:939ef9c1e1224d980405689a97ffcf7828c56d1517b31d73464356c1f2b7769e \
+    --hash=sha256:ead4aefa7007249e05e51b01095719d5a8dd95760089f5730aac5698b1932918 \
+    --hash=sha256:3cca0df08bd0ed98432390494ce3ded003f5e661aa460be7a734bffe35983605 \
+    --hash=sha256:3ede470d3d17ba3c07638dfa0d10452bc1b6e5ad326127a65ba77e6aaeb11bec \
+    --hash=sha256:68c47964f7186eec306b13629627722b9079cd4447ed9e5ecaecd4eac84ca734 \
+    --hash=sha256:dd5d3991950aae40a6c81de1578942e73d629808cefc51d12cd157980e6cfc18 \
+    --hash=sha256:a77c52062c07eb7c7b30545dbc73e32995b7e117eea750317b5cb5c7a4618f14 \
+    --hash=sha256:81af9aec4bc960a9a0127c488f18772dae4634689233f06f65443e7b11ebeb51 \
+    --hash=sha256:e079b1dadc5c06246cc1bb6fe1b23a50b1d1173f2edd5104efd40bb73a28f406 \
+    --hash=sha256:fbd26746772c24cb93c8b97cbdad5cb9e46c86bbdb1b9d8a743ee00e2fb1fc5d \
+    --hash=sha256:99266ef30a37e43932deec2b7ca73e83c8dbc3b9ff703ec73eca6b1dae6befea \
+    --hash=sha256:8b6ce1c993909783bc96e0b4f34ea223bff7a4df2c90bdb9c4e0f1ac928689e3
+newrelic==2.56.0.42 \
+    --hash=sha256:b58014aa5640e3456ea7dbf33f151a1c4b9df47289768730c0a03061a4713865
+flake8==2.5.0 \
+    --hash=sha256:b158f2fd1e62b7d25dbe3e0919fc97798719f72a6072bdb2f9b0e1d02fc2b03f \
+    --hash=sha256:8216c8c6ee092ae93d51f89bc91045648c88cd9be77d60cf47df7ca26ee4f88c
+pep8==1.6.2 \
+    --hash=sha256:4aa129df8d9007b192bf82013f415533994652d7caa930d002687eb42a6c2a41 \
+    --hash=sha256:b8b7e35630b5539e26a197dfc6005be9e1e9a135496b377723a8ebc01b9bcbff
+pyflakes==1.0.0 \
+    --hash=sha256:071d121e9e7b33058aa1ba5de7bce9b97bfa3149cfe1acbb6587c21fc1c8eda1 \
+    --hash=sha256:f39e33a4c03beead8774f005bd3ecf0c3f2f264fa0201de965fce0aff1d34263
+mccabe==0.3.1 \
+    --hash=sha256:bd6c080fb372aebcb0ce19e35ddac744f2abf5a7befa207db2d1097d48efe63a \
+    --hash=sha256:5f7ea6fb3aa9afe146d07fd6d5cedf788747d8b0c29e44732453c2b2db1e3d16
+ipython==4.0.0 \
+    --hash=sha256:9541ce679e51ebbd0dbd3226cb434cc3ac9321b52f03badad2975f60d6c9f0ba \
+    --hash=sha256:56c047c989aeec6685ee2a8b25c07ecdca042a23749e6ea23cfb194844e157bc \
+    --hash=sha256:2fd276c407fb0b29e5d4884a7029a2c27fef0a06fd7a34924cce69b7cc43f4da \
+    --hash=sha256:5a794c7734494cf8536a67d509cf1443f4e5488837a27c2c5b348d84059147c1
+ipdb==0.8.1 \
+    --hash=sha256:1763d1564113f5eb89df77879a8d3213273c4d7ff93dcb37a3070cdf0c34fd7c
+Sphinx==1.3.1 \
+    --hash=sha256:2ddf18da3b0621fa43fee4b7290da0ae789b46fb899278a8acccda195c4979a7 \
+    --hash=sha256:1a6e5130c2b42d2de301693c299f78cc4bd3501e78b610c08e45efc70e2b5114
+sphinx-rtd-theme==0.1.9 \
+    --hash=sha256:3c38d037713bd78043486eea5bf771d71ed697ec25c09e16f49e44887f7fe184 \
+    --hash=sha256:46c2ca8b482b0398b9621bb5a8ec7c9c5c7226926e5363e18d744f5f0d39d78f \
+    --hash=sha256:273846f8aacac32bf9542365a593b495b68d8035c2e382c9ccedcac387c9a0a1
+sphinx-autobuild==0.5.2 \
+    --hash=sha256:120af8b893061ec72be4aa91b93455e6d0d4a80175c07a53819910c4d8974830 \
+    --hash=sha256:08cc655bec25bac3e660ab2d1c51471d4532ef393fc40fafbd250140263516bb
+docutils==0.12 \
+    --hash=sha256:dcebd4928112631626f4c4d0df59787c748404e66dda952110030ea883d3b8cd \
+    --hash=sha256:c7db717810ab6965f66c8cf0398a98c9d8df982da39b4cd7f162911eb89596fa
+Pygments==2.0.2 \
+    --hash=sha256:0a3a2265e1efb0defa722d1f429730dc9df975adc3c60ac7d2b432bdf03c041d \
+    --hash=sha256:5ded2fa9094fd7dfeb3da92636409fd702a0d07d606283504d7ee04401cee5cb \
+    --hash=sha256:7320919084e6dac8f4540638a46447a3bd730fca172afc17d2c03eed22cf4f51
+django-jinja==1.4.1 \
+    --hash=sha256:6f4c2e8c5ada17039ff1c1e38bc51bea9317af3676e28466148c8df5fc78f132
+django-session-csrf==0.5 \
+    --hash=sha256:44e4639ec057a6b6a9dddb869d4e3a4818fc9278ec490cce39aef08440592a93
+django-extensions==1.5.9 \
+    --hash=sha256:59c12ad4dae6cb7a54deac626a0907d8b0d19b5757dc1d15b06374695131528b \
+    --hash=sha256:141965ae43bbe36a0682a4d1527ed82bc5d4c203113f91171257a5d9764edd82
+django-filter==0.11.0 \
+    --hash=sha256:7d17547b65216cc5c6fbc04aee55088ccd5917c0775304d96f7017c26c789cd7 \
+    --hash=sha256:00cc47935afbbd83260fdd283b0aa790e658d2a71922049f6e467dca8a124537
+markdown==2.6.4 \
+    --hash=sha256:e436eee7aaf2a230ca3315034dd39e8a0fc27036708acaa3dd70625ec62a94ce \
+    --hash=sha256:16fbd4960fe59bc8cdd029f31dd29ecee40f21ec27ccd6a642d74a32d5d57d5c
+django-browserid==1.0.1 \
+    --hash=sha256:c612cb27ea867176c424a43059e1e058f17c3eed2b635c088413e552113dfc48 \
+    --hash=sha256:d1b40982f65287ea8b278625b0e32aedfbeeee834c0cd64e09f0f0d8b6273541
+https://github.com/mozilla/rna/archive/113593bff34d23f84c9bf0de648817c3f3502750.tar.gz#egg=rna==1.1 \
+    --hash=sha256:d3ff8a304f00651f72be56ffaa93a40743925c94dbce5f599d91c9259e86836f
+https://github.com/timmyomahony/django-pagedown/archive/78556863faa5654f749c5562b390317c6cad10b3.tar.gz#egg=pagedown==0.1 \
+    --hash=sha256:3e7bfaf54a560889838104c100d8b37930306243d8913942c4675cfcc54bccc7
+https://github.com/tomchristie/django-rest-framework/archive/d9a8bc08929de0163b8fbb87dc9a3af685330eaf.tar.gz#egg=django_rest_framework==2.3.8 \
+    --hash=sha256:570be9cd96a04cbe4a302756fd74ef4edadce3c34d3173811c4d639c10c1da60
+nose==1.3.7 \
+    --hash=sha256:dadcddc0aefbf99eea214e0f1232b94f2fa9bd98fa8353711dacb112bfcbbb2a \
+    --hash=sha256:9ff7c6cc443f8c51994b34a667bbcf45afd6d945be7477b52e97516fd17c53ac \
+    --hash=sha256:f1bffef9cbc82628f6e7d7b40d7e255aefaa1adb6a1b1d26c69a8b79e6208a98
+mock==1.3.0 \
+    --hash=sha256:3f573a18be94de886d1191f27c168427ef693e8dcfcecf95b170577b2eb69cbb \
+    --hash=sha256:1e247dbecc6ce057299eb7ee019ad68314bb93152e81d9a6110d35f4d5eca0f6
