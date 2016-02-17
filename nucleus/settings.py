@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 
 import dj_database_url
+import django_cache_url
 from decouple import Csv, config
 
 
@@ -39,12 +40,10 @@ INSTALLED_APPS = [
 
     # Third party apps
     'django_jinja',
-    'django_browserid',
     'django_extensions',
     'pagedown',
     'rest_framework',
     'rest_framework.authtoken',
-    'session_csrf',
 
     # Django apps
     'django.contrib.admin',
@@ -53,17 +52,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
 ]
 
 for app in config('EXTRA_APPS', default='', cast=Csv()):
     INSTALLED_APPS.append(app)
 
-
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'session_csrf.CsrfMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -85,7 +84,13 @@ DATABASES = {
     )
 }
 
-# Internationalization
+CACHES = {
+    'default': config('CACHE_URL',
+                      default='locmem://',
+                      cast=django_cache_url.parse),
+}
+
+    # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
 LANGUAGE_CODE = config('LANGUAGE_CODE', default='en-us')
@@ -106,6 +111,7 @@ MEDIA_ROOT = config('MEDIA_ROOT', default=os.path.join(BASE_DIR, 'media'))
 MEDIA_URL = config('MEDIA_URL', '/media/')
 
 SESSION_COOKIE_SECURE = config('SESSION_COOKIE_SECURE', default=not DEBUG, cast=bool)
+CSRF_COOKIE_SECURE = SESSION_COOKIE_SECURE
 
 TEMPLATES = [
     {
@@ -115,9 +121,9 @@ TEMPLATES = [
             'match_extension': '.jinja',
             'newstyle_gettext': True,
             'context_processors': [
-                'session_csrf.context_processor',
                 'nucleus.base.context_processors.settings',
                 'nucleus.base.context_processors.i18n',
+                'django.contrib.auth.context_processors.auth',
             ],
         }
     },
@@ -133,7 +139,6 @@ TEMPLATES = [
                 'django.template.context_processors.static',
                 'django.template.context_processors.tz',
                 'django.contrib.messages.context_processors.messages',
-                'session_csrf.context_processor',
             ],
         }
     },

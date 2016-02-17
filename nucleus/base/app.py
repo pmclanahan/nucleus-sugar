@@ -1,12 +1,12 @@
 from django.apps import AppConfig
 
-import session_csrf
+# import session_csrf
 
 
 class BaseAppConfig(AppConfig):
     name = 'nucleus.base'
 
-    def ready(self):
+    # def ready(self):
         # The app is now ready. Include any monkey patches here.
 
         # Monkey patch CSRF to switch to session based CSRF. Session
@@ -15,4 +15,4 @@ class BaseAppConfig(AppConfig):
         # domain you can remove session_csrf and use Django's CSRF
         # library. See also
         # https://github.com/mozilla/sugardough/issues/38
-        session_csrf.monkeypatch()
+        # session_csrf.monkeypatch()

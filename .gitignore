@@ -6,3 +6,4 @@ docs/_build
 MANIFEST
 .coverage
 __pycache__
+*.db
