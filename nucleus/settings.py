@@ -113,6 +113,8 @@ MEDIA_URL = config('MEDIA_URL', '/media/')
 SESSION_COOKIE_SECURE = config('SESSION_COOKIE_SECURE', default=not DEBUG, cast=bool)
 CSRF_COOKIE_SECURE = SESSION_COOKIE_SECURE
 
+RNA = {'BASE_URL': config('RNA_BASE_URL', default='https://nucleus.mozilla.org/rna/')}
+
 TEMPLATES = [
     {
         'BACKEND': 'django_jinja.backend.Jinja2',

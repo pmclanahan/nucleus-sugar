@@ -3,10 +3,11 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from django.http import HttpResponse
 
-# import session_csrf
+from synctool.routing import Route
 
 
-# session_csrf.monkeypatch()
+rnasync = Route(api_token=None).app('rna', 'rna')
+
 admin.autodiscover()  # Discover admin.py files for the admin interface.
 
 urlpatterns = [
@@ -15,8 +16,7 @@ urlpatterns = [
     url(r'^api-token-auth/',
         'rest_framework.authtoken.views.obtain_auth_token'),
     url(r'^rna/', include('rna.urls')),
-
-    url(r'', include('django_browserid.urls')),
+    url(r'^rnasync/?$', rnasync),
 
     url(r'^robots\.txt$', lambda r: HttpResponse(
         "User-agent: *\n%s: /" % 'Allow' if settings.ENGAGE_ROBOTS else 'Disallow',
