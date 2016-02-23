@@ -34,17 +34,6 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # Application definition
 
 INSTALLED_APPS = [
-    # Project specific apps
-    'nucleus.base',
-    'rna',
-
-    # Third party apps
-    'django_jinja',
-    'django_extensions',
-    'pagedown',
-    'rest_framework',
-    'rest_framework.authtoken',
-
     # Django apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -53,6 +42,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Third party apps
+    'django_jinja',
+    'django_extensions',
+    'pagedown',
+    'rest_framework',
+    'rest_framework.authtoken',
+
+    # Project specific apps
+    'nucleus.base',
+    'rna',
 ]
 
 for app in config('EXTRA_APPS', default='', cast=Csv()):
