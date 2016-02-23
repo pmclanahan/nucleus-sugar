@@ -67,6 +67,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'csp.middleware.CSPMiddleware',
+    'rna.middleware.PatchOverrideMiddleware',
 )
 
 ROOT_URLCONF = 'nucleus.urls'
