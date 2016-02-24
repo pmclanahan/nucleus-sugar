@@ -59,11 +59,9 @@ django-filter==0.11.0 \
 markdown==2.6.4 \
     --hash=sha256:e436eee7aaf2a230ca3315034dd39e8a0fc27036708acaa3dd70625ec62a94ce \
     --hash=sha256:16fbd4960fe59bc8cdd029f31dd29ecee40f21ec27ccd6a642d74a32d5d57d5c
-django-browserid==1.0.1 \
-    --hash=sha256:c612cb27ea867176c424a43059e1e058f17c3eed2b635c088413e552113dfc48 \
-    --hash=sha256:d1b40982f65287ea8b278625b0e32aedfbeeee834c0cd64e09f0f0d8b6273541
-#https://github.com/mozilla/rna/archive/113593bff34d23f84c9bf0de648817c3f3502750.tar.gz#egg=rna==1.1 \
-#    --hash=sha256:d3ff8a304f00651f72be56ffaa93a40743925c94dbce5f599d91c9259e86836f
+django-browserid==2.0.0 \
+    --hash=sha256:f8ead6f1fe05ed80974480e253c3cbdc02bf301999db725acec80b5dc9ff4a57 \
+    --hash=sha256:5ef995f50de09c5a5ae3a6531a21d2c66549310e6ef94ec174bbc7bbad49e880
 https://github.com/pmclanahan/rna/archive/django-1.8-drf-upgrade.tar.gz#egg=rna==2.0 \
     --hash=sha256:2422a3fe17bf1dd9d7bcd1d0b68eedc6909b4b9a3a14164355ff0913c193d390
 django-pagedown==0.1.1 \

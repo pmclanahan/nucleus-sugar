@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Third party apps
+    'django_browserid',
     'django_jinja',
     'django_extensions',
     'pagedown',
@@ -56,6 +57,11 @@ INSTALLED_APPS = [
 
 for app in config('EXTRA_APPS', default='', cast=Csv()):
     INSTALLED_APPS.append(app)
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'django_browserid.auth.BrowserIDBackend',
+)
 
 MIDDLEWARE_CLASSES = (
     'sslify.middleware.SSLifyMiddleware',
@@ -90,6 +96,8 @@ CACHES = {
                       default='locmem://',
                       cast=django_cache_url.parse),
 }
+
+BROWSERID_CREATE_USER = False
 
     # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
