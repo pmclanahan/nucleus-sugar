@@ -31,8 +31,8 @@ pytz==2015.7 \
     --hash=sha256:fbd26746772c24cb93c8b97cbdad5cb9e46c86bbdb1b9d8a743ee00e2fb1fc5d \
     --hash=sha256:99266ef30a37e43932deec2b7ca73e83c8dbc3b9ff703ec73eca6b1dae6befea \
     --hash=sha256:8b6ce1c993909783bc96e0b4f34ea223bff7a4df2c90bdb9c4e0f1ac928689e3
-newrelic==2.56.0.42 \
-    --hash=sha256:b58014aa5640e3456ea7dbf33f151a1c4b9df47289768730c0a03061a4713865
+newrelic==2.60.0.46 \
+    --hash=sha256:17d598fccca0845c0337e5276d40d65f951afea6adf9bd9172cff3a87f2ef294
 flake8==2.5.0 \
     --hash=sha256:b158f2fd1e62b7d25dbe3e0919fc97798719f72a6072bdb2f9b0e1d02fc2b03f \
     --hash=sha256:8216c8c6ee092ae93d51f89bc91045648c88cd9be77d60cf47df7ca26ee4f88c

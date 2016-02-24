@@ -192,3 +192,28 @@ CSP_STYLE_SRC = (
 SSLIFY_DISABLE = config('DISABLE_SSL', default=DEBUG, cast=bool)
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 USE_X_FORWARDED_HOST = True
+BROWSERID_AUDIENCES = config('BROWSERID_AUDIENCES',
+                             default='https://nucleus-sugar.us-west.moz.works,'
+                                     'https://nucleus.mozilla.org',
+                             cast=Csv())
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
+        },
+        'django_browserid': {
+            'handlers': ['console'],
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
+        },
+    },
+}

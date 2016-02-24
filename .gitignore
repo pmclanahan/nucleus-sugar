@@ -7,3 +7,4 @@ MANIFEST
 .coverage
 __pycache__
 *.db
+static
