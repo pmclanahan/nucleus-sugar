@@ -1,8 +1,6 @@
 Django==1.8.9 \
     --hash=sha256:6481bbb3d410d8a7923e9c9ed23b799f269a6526b2fa83a04b8ba3069f61dd71 \
     --hash=sha256:fc012d8507201a628e877202bb7800799152285f69aa0d42a7c506a96fbbd2e3
-#psycopg2==2.6.1 \
-#    --hash=sha256:6acf9abbbe757ef75dc2ecd9d91ba749547941abaffbe69ff2086a9e37d4904c
 python-decouple==3.0 \
     --hash=sha256:99834c9ff7ce5c5b2f4a18bc0880753e54ea3aaabc3cfb16961a92d5046665df
 Jinja2==2.7.3 \
