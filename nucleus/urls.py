@@ -4,10 +4,7 @@ from django.contrib import admin
 from django.http import HttpResponse
 
 from django_browserid.admin import site as browserid_admin
-from synctool.routing import Route
 
-
-rnasync = Route(api_token=None).app('rna', 'rna')
 
 admin.autodiscover()  # Discover admin.py files for the admin interface.
 
@@ -20,7 +17,6 @@ urlpatterns = [
     url(r'^api-token-auth/',
         'rest_framework.authtoken.views.obtain_auth_token'),
     url(r'^rna/', include('rna.urls')),
-    url(r'^rnasync/?$', rnasync),
 
     url(r'^robots\.txt$', lambda r: HttpResponse(
         "User-agent: *\n%s: /" % 'Allow' if settings.ENGAGE_ROBOTS else 'Disallow',
